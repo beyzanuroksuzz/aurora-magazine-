@@ -1,0 +1,434 @@
+
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+
+<link rel="stylesheet" href="styles.css">
+
+<title> Aurora Magazine | The Art of Trends & Beauty Tips </title>
+</head>  
+
+<body> 
+
+<style>
+
+<div  
+
+ #top-container {
+      display: flex;
+      align-items: center; 
+      justify-content: space-between; 
+      padding: 10px 20px;
+      background-color: #f8f8f8;
+      border-bottom: 2px solid #ddd;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center; 
+    }
+
+    .logo img { 
+     height: 90px;
+     width: auto;
+    } 
+
+.menu{
+height:100px;
+line-height:100px;
+text-align:center;
+float:left;
+border-left: solid 1px black;
+}
+
+.menu a{
+color:47007b;
+text-decoration:none;
+}
+
+.menu a:hover{
+color: black ;
+text-decoration:overline;
+}
+
+</div> 
+
+</style>   
+
+
+
+<style>
+
+.menu {
+    margin-bottom: 20px; 
+}
+
+#slider-container {
+    margin-top: 25px; 
+}
+</style>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Aurora Magazine</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="beauty.html">Beauty</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="style.html">Style</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="fashion.html">Fashion</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="health.html">Health</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+<div id="top-container" class="row">
+
+<div class="col-lg-4 col-md-50 col-sm-15 logo">
+<img src= https://i.pinimg.com/736x/39/90/c3/3990c325f87699ed8b8c8b11f79196f9.jpg width='120' height='120'/>
+</div>
+
+
+
+<div class="col-lg-2 col-md-2 col-sm-12 menu">
+<a href="#" target="_blank">Beauty</a>
+</div>
+
+<div class="col-lg-2 col-md-2 col-sm-12 menu">
+<a href="#" target="_blank">Style</a>
+</div>
+
+<div class="col-lg-2 col-md-2 col-sm-12 menu">
+<a href="#" target="_blank">Fashion</a>
+</div>
+
+<div class="col-lg-2 col-md-2 col-sm-12 menu">
+<a href="#" target="_blank">Health</a>
+</div>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Carousel</title>
+
+ 
+  <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/css/splide.min.css" rel="stylesheet">
+
+  <style>
+
+    #image-carousel {
+      max-width: 8000px;
+      margin: 0 auto;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+
+  </style>
+<body>
+
+<section id="image-carousel" class="splide" aria-label="Beautiful Images">
+  <div class="splide__track">
+    <ul class="splide__list">
+      <li class="splide__slide">
+
+        <img src="https://assets.vogue.com/photos/677ee037860e8a5a26ede04e/master/w_2240,c_limit/1516708424" alt="">
+      </li>
+
+      <li class="splide__slide">
+
+        <img src="https://assets.vogue.com/photos/673e24d2ff70245f0974fef9/16:9/w_2580%2Cc_limit/Vogue38.jpg" alt=""> 
+      </li>
+
+      <li class="splide__slide">
+        <img src="https://assets.vogue.com/photos/6765c0cfe43a4cf55d9b0d91/16:9/w_2580%2Cc_limit/EC-VOGUK-121124-DIANA.jpg" alt="">
+      </li>
+
+      <li class="splide__slide">
+        <img src="https://assets.vogue.com/photos/677b4bb3dcff7da7496e0f72/16:9/w_2580%2Cc_limit/GettyImages-2192554780.jpg"">
+      </li>
+
+      <li class="splide__slide">
+        <img src="https://assets.vogue.com/photos/67609badcc210f86f5501d99/16:9/w_2580%2Cc_limit/52043433"">
+      </li>
+    </ul>
+  </div>
+</section>
+
+
+
+<script src= "https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.3/dist/js/splide.min.js "></script>
+
+<script>
+ 
+  document.addEventListener('DOMContentLoaded', function () {
+    new Splide('#image-carousel', {
+      type   : 'loop', 
+      perPage: 1,     
+      autoplay: true, 
+      interval: 3000,  // 20 second 
+    }).mount();
+  });
+
+</script>
+
+</body>
+</html>
+ 
+
+
+</div> 
+  
+<p>
+<br><br> 
+
+<p style="text-align: center;">  
+<img src= https://i.pinimg.com/736x/34/b3/0d/34b30df6d8305897d9a942073462d844.jpg 
+width='1000' height='600'/>  
+</p> 
+
+<br><br> 
+</p>
+
+
+
+<div id="slider-container" class="row">
+</div>
+
+<div id="content-container" class="row">
+
+<div class="col-lg-4 col-md-4 col-sm-12 content-box">
+
+<p style="color:blue;font-size: 20px;">
+
+ <b>The Ultimate Summer Jewelry Guide from a Celebrity Stylist </b>  
+ <p>
+ 
+<br>
+
+This summer, jewelry is all about making a statement: chic gold earrings, timeless watches, large molten bangles. When looking through the treasures of your jewelry box, you want your collection of gold gems and beauties precisely selected.
+Yes, we all want to be wearing the latest and greatest this summer season, but we also want to be able to wear these dazzling pieces year-round.
+So we asked Dani Michelle, celebrity stylist and the creative force behind the looks of Hailey Bieber, Kendall Jenner, and Daisy Edgar-Jones, to share her insider knowledge on the must-have pieces of the season.
+
+Spoiler alert: mixed metals and pearls are in...
+
+<p>
+<img src= https://i.pinimg.com/736x/8c/07/ce/8c07ce50665cd0187f9595b76efd5f8f.jpg width='300' height='390'/> 
+</p>
+
+
+<b>Combining jewellery correctly: 
+</b> 
+
+<br><br>
+There are hardly any rules when it comes to combining jewellery, almost everything is allowed. The general rule is: creativity and joy are the be-all and end-all. If you like to wear a lot of jewellery, you can also combine many pieces of jewellery with each other. The only rule of thumb is: it is better to combine a lot of eye-catching necklaces with less conspicuous earrings, while eye-catching earrings should be combined with more discreet necklaces.
+<br><br>
+
+<i>Creoles, plugs and earcuffs can combine to create great earcandy looks that are truly extraordinary.</i> 
+
+Bracelets can also be super combined, as can rings. Here, too, the rule is: the focus is only on one of the two places. So wear either several rings or several bracelets on one hand, both can quickly look cluttered
+</p>
+
+<p>
+<img src= https://i.pinimg.com/736x/dc/35/f5/dc35f573bbc353a0cd8d54ca67bbdbb2.jpg  width='300' height='390'/> 
+</p> 
+
+
+
+
+
+</div>
+
+<div class="col-lg-4 col-md-4 col-sm-12 content-box">
+ 
+<p style="color:purple;font-size: 20px;">
+
+
+ <b>Beauty Hacks From the Kitchen</b>  
+
+<p>
+
+The kitchen is not limited to cooking food. Fresh ingredients from the fridge and pantry are actually winning concoctions for beauty treatments that you can do at home.
+
+So the next time you have half of an avocado leftover from your morning toast, why not mash it into a hydrating hair mask? Also on our list, a skin tightening mask made with egg whites.
+
+Head over to your kitchen this weekend and follow these step bystep instructions on how to have a beauty focused self care day that is budget friendly. Ready, set, DIY. 
+
+
+<p>  
+<img src= https://i.pinimg.com/736x/d6/1e/ae/d61eae5d48371130f16fedd92a512a09.jpg width='300' height='300'/>  
+</p> 
+ 
+
+<br>
+<p style="color:pink;font-size: 14px;">
+<b>Sugar Lip Scrub</b>
+
+<br><br>
+<p style="color:black;font-size: 14px;">
+
+Ingredients:
+
+1 teaspoon organic sugar in the raw (or to touch)
+1 tablespoon organic coconut oil
+1 tablespoon Manuka honey
+
+Instructions:
+
+1. Mix the sugar, oil, and honey together in a small bowl.
+2. Rub onto your lips with a finger in a circular motion
+3. Rinse.
+4. Keep for up to two weeks!
+
+ scelerisque sit amet quam sit amet, suscipit hendrerit justo. Duis et eros sed n
+<br><br>
+
+<br><br>
+<p style="color:pink;font-size: 14px;"> 
+<b>Cooling Cucumber Eye Mask</b>
+<br><br>
+
+<p style="color:black;font-size: 14px;"> 
+
+Ingredients:
+1 cold cucumber
+
+Instructions:
+1. Cut two slices of cucumber about 1/4 inch thick.
+2. Place on eyelids and relax and until they become warm.
+*Tip: Put these over your eyelids while you have a face mask on.
+
+</p>
+
+<p> 
+<img src= https://i.pinimg.com/736x/ff/7a/c6/ff7ac67bd7c733f016614b104f856f5b.jpg width='300' height='390'/> 
+</p> 
+
+
+</div>
+
+<div class="col-lg-4 col-md-4 col-sm-12 content-box">
+
+
+<p style="color:green;font-size: 20px;">
+
+
+ <b>EAT THESE FOODS to Feel Your Best THIS FALL</b>  
+<p style="color:black;font-size: 14px;">  
+
+
+Eating seasonally boasts a bevy of benefits, including: tastes better, saves money, supports the local economy, is better for the environment, and provides more nutrients for our health. 
+
+
+<br><br> 
+<b>Broccoli, Almonds,Butternut squash</b>
+<br><br> 
+
+
+scelerisque sit amet quam sit amet, suscipit hendrerit justo. Duis et eros sed nunc fringilla ultricies. 
+<br><br>
+
+<p> <img src= https://poosh.com/app/uploads/2023/12/What-To-Eat-for-Balanced-Blood-Sugar.jpg width='300' height='390'/> 
+</p> 
+
+
+<br><br> 
+<img src=  https://poosh.com/app/uploads/2024/01/Slide-3.jpg width='300' height='300'/> 
+<br><br>  
+
+
+<i>1. High fiber
+2. Moderate to high protein
+3. Beneficial fats
+4. Low-glycemic complex carbs
+
+Try to include at least 1 starchy food with each main meal. Some people think starchy foods are fattening, but gram for gram the carbohydrate they contain provides fewer than half the calories of fat.</i> 
+
+
+</p>
+
+
+
+</div>
+
+</div>
+
+<div id="footer-container" class="row">
+
+<div class="col-12 footer-content"> 
+
+
+<p style="color:purple;font-size: 15px;">
+
+   Beyzanur Oksuz FINAL PROJECT 2025
+   20201301009 
+</p> 
+
+
+</div>
+
+</div>
+
+<form>
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else :) .</div>
+  </div>
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+
+  <button type="submit" class="btn btn-primary">Submit</button>
+ 
+</form> 
+
+
+<!-- BOOTSTRAP CALL-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous" />
+<!-- FINISHED -->
+
+ </script> 
+</body>  
+</html>
